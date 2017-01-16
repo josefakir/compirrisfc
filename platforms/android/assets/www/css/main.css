@@ -1,0 +1,21 @@
+.w100{width: 100%}
+.header{background: #0bacf2; color: #fff}
+.page-content{background: #fff;}
+.link{width: 25%; text-align: center; display: block;}
+.link i{width: 100%}
+h1{color: #0bacf2}
+.marcador{width: 50%; float: left;}
+.marcador img{width: 100px; margin:0 auto; display: block;}
+.tac{text-align: center;}
+.goles{font-size: 60px;margin: 0;font-weight: bold;}
+.footer{background: #0bacf2;}
+.footer a{color: #fff}
+.gatorades{ font-size: 50px; margin: 0;}
+.comp{width: 50px}
+.tabla{width: 100%}
+.tabla thead th{text-align: left;}
+.clear{clear: both}
+#tablageneral{width: 95%; display: block; margin: 0 auto}
+#loading{width: 100%;height: 100%;background: url(../img/pixel.png);position: fixed;top: 0;left: 0;z-index: 9999; display: none}
+#loading img{position: absolute;top: 50%;left: 50%;width: 80px;margin-left: -40px;margin-top: -40px;}
+.statusbar-overlay{background: #0bacf2}

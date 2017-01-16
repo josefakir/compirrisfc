@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>Compirris FC</title>
+    <!-- Path to Framework7 iOS CSS theme styles-->
+    <link rel="stylesheet" href="dist/css/framework7.ios.min.css">
+    <!-- Path to Framework7 iOS related color styles -->
+    <link rel="stylesheet" href="dist/css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="dist/css/my-app.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner header">
+            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+            <div class="center sliding"><img src="img/logo.png" alt="" style="width: 40px">Compirris FC</div>
+            <div class="right">
+              <!-- 
+                Right link contains only icon - additional "icon-only" class
+                Additional "open-panel" class tells app to open panel when we click on this link
+              -->
+            </div>
+          </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content -->
+            <div class="page-content">
+              <img src="img/compirris.jpg" alt="" class="w100">
+              <div class="content-block">
+              <h1 class="tac">Último resultado:</h1>
+              <div class="marcador">
+                <img src="img/logo.png" alt="">
+                <p class="nombreequipo tac">Compirris FC</p>
+                <p class="goles tac" id="golescompirris"></p>
+              </div>
+              <div class="marcador">
+                <img src="img/logoequipo.png" alt="">
+                <p class="nombreequipo tac" id="nombreotro"></p>
+                <p class="goles tac" id="golesotro"></p>
+              </div>
+              <div class="marcador"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+          <div class="toolbar-inner footer">
+            <!-- Toolbar links -->
+            <a href="index.html" class="link"><i class="fa fa-home"></i></a>
+            <a href="jugadores.html" class="link"><i class="fa fa-user" aria-hidden="true"></i>  </a>
+            <a href="proximo-partido.html" class="link"><i class="fa fa-futbol-o"></i></a>
+            <a href="resultados.html" class="link"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="dist/js/framework7.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="dist/js/my-app.js"></script>
+    <div id="loading">
+      <img src="img/default.svg" alt="">
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+  </body>
+</html> 
