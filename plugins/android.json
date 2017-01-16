@@ -1,0 +1,79 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.graphicsandcode.compirrisfc"
+        }
+    }
+}
